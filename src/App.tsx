@@ -1,5 +1,16 @@
+import { Col, Container, Row } from 'reactstrap'
+import TinderInteractiveBar from './Components/TinderInteractiveBar/TinderInteractiveBar'
+
 function App() {
-  return <h1>Entry point</h1>
+    return (
+        <Container>
+            <Row>
+                <Col>
+                    <TinderInteractiveBar />
+                </Col>
+            </Row>
+        </Container>
+    )
 }
 
 export default App

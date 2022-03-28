@@ -24,6 +24,10 @@ module.exports = {
                 type: 'asset/resource',
             },
             {
+                test: /\.s[ac]ss$/i,
+                use: ["style-loader","css-loader","sass-loader",],
+            },
+            {
                 test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
                 type: 'asset/inline',
             },

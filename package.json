@@ -1,5 +1,5 @@
 {
-  "name": "starter-pack-project",
+  "name": "component-sandbox",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,18 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbderrahmaneMouzoune/starter-pack-project.git"
+    "url": "git+https://github.com/AbderrahmaneMouzoune/component-sandbox.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbderrahmaneMouzoune/starter-pack-project/issues"
+    "url": "https://github.com/AbderrahmaneMouzoune/component-sandbox/issues"
   },
-  "homepage": "https://github.com/AbderrahmaneMouzoune/starter-pack-project#readme",
+  "homepage": "https://github.com/AbderrahmaneMouzoune/component-sandbox#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "reactstrap": "^9.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -53,9 +55,11 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "react-refresh": "^0.9.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
     "style-loader": "^2.0.0",
     "typescript": "^4.1.5",
-    "webpack": "^5.21.2",
+    "webpack": "^5.70.0",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^4.7.4",
     "webpack-merge": "^5.7.3"

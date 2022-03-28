@@ -1,0 +1,70 @@
+.tinderInteractiveBar {
+    &-container {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    &-button {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        padding: 0.5em;
+        cursor: pointer;
+        transition: all ease 250ms;
+        box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+
+        svg {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: all ease 250ms;
+        }
+
+        &:hover {
+            transition: all ease 250ms;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 6px 0 rgb(0 0 0 / 5%);
+
+            svg {
+                fill: white;
+            }
+        }
+
+        &_bigger {
+            width: 50px;
+            height: 50px;
+        }
+
+        &_dislike {
+            &:hover {
+                background-color: #f98404;
+            }
+
+            svg {
+                fill: #f98404;
+            }
+        }
+
+        &_like {
+            &:hover {
+                background-color: #ff0000;
+            }
+
+            svg {
+                fill: #ff0000;
+            }
+        }
+
+        &_superlike {
+            &:hover {
+                background-color: #4d77ff;
+            }
+
+            svg {
+                fill: #4d77ff;
+            }
+        }
+    }
+}
