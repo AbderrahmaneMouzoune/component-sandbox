@@ -7,13 +7,9 @@ interface IWrapperComponent {
 
 function WrapperComponent({ component, title }: IWrapperComponent) {
     return (
-        <div style={{ display: "flex", flexDirection: "column", gap: ".25em" }}>
-            <div className='badge'>
-                {title.toUpperCase()}
-            </div>
-            <div>
-                {component()}
-            </div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '.5em' }}>
+            <div className="badge">{title.toUpperCase()}</div>
+            <div>{component()}</div>
         </div>
     )
 }

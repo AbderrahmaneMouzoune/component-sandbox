@@ -1,0 +1,35 @@
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+    -khtml-box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+
+    &-header {
+        border-bottom: 1px solid #ecf3fa;
+        border-radius: 1rem 1rem 0 0;
+
+        &_title {
+            font-size: 1.75em;
+
+            & > span {
+                font-size: 0.75em;
+            }
+        }
+    }
+
+    &-header,
+    &-body,
+    &-footer {
+        padding: 1.25em;
+    }
+
+    &-footer {
+        background-color: rgba(0, 0, 0, 0.02);
+        border-radius: 0 0 1rem 1rem;
+        font-size: 0.725em;
+    }
+}
