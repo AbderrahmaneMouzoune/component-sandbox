@@ -3,4 +3,5 @@
     @include border-radius(1rem);
     @include box-shadow();
     background-color: $background-base;
+    padding: 1em;
 }

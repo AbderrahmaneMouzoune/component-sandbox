@@ -1,12 +1,26 @@
 import { Col, Container, Row } from 'reactstrap'
 import TinderInteractiveBar from './Components/TinderInteractiveBar/TinderInteractiveBar'
+import WrapperComponent from './Components/WrapperComponent/WrapperComponent'
 
 function App() {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <TinderInteractiveBar />
+            <h1
+                style={{
+                    textAlign: 'center',
+                    fontSize: '1em',
+                    paddingTop: '1em',
+                }}
+            >
+                Hello i'm Abderrahmane Mouzoune and that's where i put all my
+                random components
+            </h1>
+            <Row style={{ marginTop: '1em', gap: '1em', flexWrap: 'wrap' }}>
+                <Col className='box'>
+                    <WrapperComponent
+                        component={TinderInteractiveBar}
+                        title={'Interactive bar like super like and dislike'}
+                    />
                 </Col>
             </Row>
         </Container>
